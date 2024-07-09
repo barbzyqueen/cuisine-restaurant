@@ -1,0 +1,13 @@
+Responsive Design
+
+from 1016px screen size  change top nav links to hamburger menu
+ - Hide the nav bar with media queries for screen sizes of 1017px
+ - Hide the links with media queries for screen sizes of 1016 px and below
+
+
+from 1016px to 835px screen sizes make images show in two sections instead of four sections
+from 1016px  to 835px screen sizes increase the height of the third section
+from 1016px  to 835px screen sizes make the drop-down menu the same length as the text field element
+
+
+

@@ -1,0 +1,539 @@
+
+/* Background-color: #DDE6ED, #D0D5D7, #D3D7D6 */
+/* Button color: #EC7E21 */
+/* Heading color:#545661 */
+/* Bg color: #F2F8F6 */
+
+
+
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  } 
+  
+   .clear {
+      clear: both;
+  } 
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+
+  
+  html{
+    /* font-family: Roboto, sans-serif; */
+    
+  }
+
+
+ 
+
+  a{
+   font-family: Roboto, sans-serif;
+  }
+
+  
+
+  
+
+/* NOTE: */ 
+/* If you want your background image to cover the entire page as it changes size, you must set the background-size property to: cover */
+/* i.e background-size: cover; */
+
+.top-section #bg-img{
+   width:100%;
+   height:600px;
+   background: url("C:/Users/Kayode/Desktop/barbz-info/100devs/Leon-Coding-Assignments/Class10/class10-materials/Homework/cusisine-restuarant2/css/bg-img2.jpg") no-repeat;
+   /* background-repeat: no-repeat; */
+   /* object-fit: cover; */
+   /* background-size:100%; */
+   background-size:cover;
+   /* background-position:left; */
+
+}
+
+.left-top{
+   width:40%;
+   float:left;
+   padding-left:40px;
+   /* overflow: hidden; */
+}
+
+.right-top{
+   width:60%;
+   float:right;
+   /* overflow: hidden; */
+}
+
+
+
+.left-top .fa-utensils{
+   color: #FD7500;
+   font-size:40px;
+  
+ }
+
+
+ .left-top .fab{
+   color:#FD7500;
+}
+
+ .left-top li, .right-top li{
+   display:inline-block;
+   list-style-type: none;
+   
+   
+}
+
+
+.left-top h1{
+   padding-top:80px;
+   font-size:50px;
+   text-align: left;
+}
+
+/* Fontawesome icons- Facebook, Twitter, Instagram */
+.fontawesom-links li{
+   padding-top:30px; 
+   padding-right:10px;
+}
+
+
+.left-top a, .right-top a {
+   text-decoration:none;
+   /* color:#545661; */
+   color:black;
+}
+
+section.left-top .textbox{
+   width:280px;
+   height:30px;
+   border:none;
+   margin-top:20px;
+}
+
+section.left-top #location-menu{
+   background-color: #FD7500;
+   color:white;
+   width:80px;
+   height:30px;
+   border:none;
+}
+
+
+.right-top li{
+   padding-top:20px;
+   padding-right:40px;
+}
+
+
+
+
+
+
+.second-section #bg-img1{
+   height:300px;
+   width:100%;
+   height:500px;
+   background: url("C:/Users/Kayode/Desktop/barbz-info/100devs/Leon-Coding-Assignments/Class10/class10-materials/Homework/cusisine-restuarant2/css/bg-img3.jpg");
+   /* object-fit: cover; */
+   /* background-size:100%; */
+   background-size:cover;
+
+}
+/* #bg-img2{
+   background: url("C:/Users/Kayode/Desktop/barbz-info/100devs/Leon-Coding-Assignments/Class10/class10-materials/Homework/cusisine-restuarant2/css/bg-img4.jpg") no-repeat; 
+    height:400px;
+    width:50%; 
+   object-fit: cover; 
+   background-size:100%; 
+   background-position:right;
+   margin-left:400px;
+} */
+
+.second-section-info {
+  margin-left:400px;
+  padding-top:50px;
+  width:50%;
+   height:400px;
+  
+   
+   
+}
+
+
+.second-section a{
+   color:#FD7500;
+   text-decoration: none;
+   font-weight:bold;
+}
+
+.second-section h1{
+   font-size:50px;
+   text-align: left;
+}
+
+.second-section p{
+   /* text-align: center; */
+}
+
+
+
+.second-section #discover-menu{
+  margin-top:20px;
+  background-color: #FD7500;
+   color:white;
+   width:120px;
+   height:30px;
+   border:none;
+}
+  
+
+.third-section{
+   background-color:#F2F8F6;
+   height:800px;
+}
+
+.third-section p, h1{
+   text-align:center;
+   padding-top:30px;
+}
+
+.third-section .about-link{
+   text-decoration:none;
+   color:#FD7500;
+   font-weight: bold;
+}
+
+.third-section h1{
+   font-size:50px;
+}
+
+.third-section ul{
+   text-align: center;
+   padding-top:40px;
+ 
+}
+.third-section ul li{
+   display:inline-block;
+   list-style-type: none;
+   padding-right:30px;
+  
+}
+
+.third-section a{
+   text-decoration:none;
+   color:#545661;
+  
+}
+
+.third-section a:hover {
+   color: #FD7500;
+   border-bottom: 2px solid #FD7500;
+ }
+
+/* Horizontal line */
+.third-section .nav-line{
+   color:#545661;
+   width:35%;
+   margin:auto;
+}
+
+.img-container1, .img-container2{
+   width:80%;
+   margin:auto;
+   padding-top:40px;
+}
+
+.img-menu1, .img-menu2{
+   margin-left:40px;
+   /* margin-right:20px; */
+   width:20%;
+   float:left;
+   
+}
+
+.img-menu1 img, .img-menu2 img{
+   width:100%;
+   height:200px;
+   object-fit: cover;
+   /* background-size: 100%; */
+}
+
+.fourth-section #bg-img2{
+   width:100%;
+   height:700px;
+   background: url("C:/Users/Kayode/Desktop/barbz-info/100devs/Leon-Coding-Assignments/Class10/class10-materials/Homework/cusisine-restuarant2/css/bg-img5.jpg") no-repeat;
+   /* background-repeat: no-repeat; */
+   /* object-fit: cover; */
+   /* background-size:100%; */
+   background-size:cover;
+}
+
+/* .fourth-section section{
+   height: 400px;
+} */
+
+.fourth-section #img-menu {
+
+   width:40%;
+   height:400px;
+   margin:auto;
+   
+}
+
+#img-menu img{
+   padding-top:50px;
+   width:100%;
+   object-fit:cover;
+}
+
+
+.fourth-section h1, .fifth-section h1{
+   padding-top:0;
+   font-size:50px;
+}
+
+
+.fourth-section .book-link, .fifth-section .testimonial-link{
+ padding-top:50px;
+ text-align: center;
+}
+
+.fourth-section a, .fifth-section a{
+   color: #FD7500;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.fourth-section p{
+   text-align:center;
+}
+
+.fourth-section .phone-icon{
+   text-align:center;
+   padding-top:20px;
+   padding-bottom:10px;
+}
+
+.fourth-section .fa-solid{
+   color: #FD7500;
+}
+
+.fourth-section .phone-no{
+   color: #FD7500;
+   text-align:center;
+   font-weight:bold;
+}
+
+.fourth-section .date-container{
+   width:35%;
+   margin:auto;
+}
+
+.fourth-section .date-info1{
+   float:left;
+}
+
+
+.fourth-section .date-info2{
+   float:right;
+}
+
+.fourth-section .time{
+   font-weight: bold;
+}
+
+.fifth-section #bg-img3{
+   width:100%;
+   height:600px;
+   background: url("C:/Users/Kayode/Desktop/barbz-info/100devs/Leon-Coding-Assignments/Class10/class10-materials/Homework/cusisine-restuarant2/css/bg-img6.jpg") no-repeat;
+   /* background-repeat: no-repeat; */
+   /* object-fit: cover; */
+   /* background-size:100%; */
+   /* background-position: top; */
+   background-size:cover;
+}
+
+
+.fifth-section #img-founder {
+
+   width:10%;
+   height:150px;
+   margin:auto;
+   
+}
+
+#img-founder img{
+   padding-top:50px;
+   width:100%;
+   object-fit:cover;
+   border-radius: 50%;
+}
+
+.fifth-section .role-desc{
+   padding-top:70px;
+   text-align:center;
+}
+
+.fifth-section .star-font{
+   color:gold;
+}
+
+.fifth-section p{
+   text-align:center;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 834px){
+
+
+   .left-top .fa-utensils{
+      margin-left:40px;
+    }
+
+   section.left-top .textbox, section.left-top #location-menu{
+      width:240px;
+    }
+
+   .left-top h1, .second-section h1, .third-section h1, .fourth-section h1, .fifth-section h1{
+      /* padding-top:80px; */
+      font-size:37px;
+      /* text-align: left; */
+   }
+
+   /* section.right-top {
+   
+      text-align:left;
+   }
+
+   .right-top .right-top-list{
+      text-align:left;
+   }
+   
+   } */
+
+
+
+   .right-top ul{
+      margin-left:80px;
+   }
+
+
+   .second-section #bg-img1{
+      height:550px;
+    } 
+
+   .second-section-info {
+      margin:auto;
+    
+      padding-top:40px;
+      padding-left:100px;
+      /* padding-left:100px; */
+      width:70%;
+       /* height:400px; */ 
+    }
+
+
+    .third-section .nav-line{
+      width: 85%;
+   }
+   
+    .third-section{
+      height: 1200px;
+   }
+   
+    .third-section .img-menu1,  .third-section .img-menu2{
+      margin-left:60px;
+      width:35%;
+      float:left;
+      
+   }
+    
+   .fourth-section .date-info1, .fourth-section .date-info2{
+      float:none;
+      width:100%;
+      text-align: center;
+      padding-top:20px;
+   }
+
+}
+
+
+
+@media (min-width:835px) and (max-width:1016px){
+   .left-top .fa-utensils{
+      margin-left:100px;
+    }
+
+    /* .left-top ul {
+      text-align:center;
+    } */
+
+    .right-top ul{
+      margin-right:30px;
+   }
+
+    section.left-top #location-menu{
+      width:280px;
+    }
+
+   .third-section .nav-line{
+      width: 45%;
+   }
+   .third-section .img-menu1,  .third-section .img-menu2{
+      margin-left:60px;
+      width:35%;
+      float:left;
+      
+   }
+
+   .third-section{
+      height: 1200px;
+   }
+
+   .second-section-info {
+      margin-left:400px;
+      padding-top:50px;
+      width:50%;
+      height:400px;
+    
+   }
+
+}
+
+
+@media (max-width:1016px){
+   nav .right-top a {
+     display:none;
+    }
+
+    .ham-menu{
+      font-size: 30px;
+     }
+
+    
+  }
+
+
+@media (min-width:1017px){
+   nav .ham-menu {
+     display:none;
+    }
+  }
